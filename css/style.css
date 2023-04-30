@@ -2,7 +2,7 @@
 /*------------------------- Layout styles ------------------------*/ 
 body{
 	margin:0;
-	background:url(../images/bg-body.jpg);
+	#background:url(../images/bg-body.jpg);
 }
 .page{
 	background:url(../images/bg-header.jpg) no-repeat center top;
