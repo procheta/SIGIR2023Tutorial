@@ -70,6 +70,7 @@ body{
 }
 .body div#featured h3{
 	color:#f78117;
+	background-color: coral;
 	font-size:36px;
 	font-family: 'RokkittRegular';
 	margin:0 0 30px;
