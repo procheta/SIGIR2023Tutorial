@@ -73,12 +73,12 @@ body{
 	font-size:36px;
 	font-family: 'RokkittRegular';
 	margin:0 0 30px;
-	width:490px;
+	width:600px;
 	padding:100px 0 0;
 	font-weight:normal;
 }
 .body div#featured p{
-	width:480px;
+	width:490px;
 	color:#5d5d5d;
 	font-family: 'RokkittRegular';
 	font-size:16px;
