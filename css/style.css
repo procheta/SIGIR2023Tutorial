@@ -18,6 +18,7 @@ body{
          url('rokkitt-regular-webfont.svg#RokkittRegular') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-family:Didot;
 }
 
 /*------------------------- Header ------------------------*/ 
@@ -33,6 +34,23 @@ body{
 	float:left;
 	outline:none;
 }
+
+.header a{
+	font-size:36px;
+        float:left;
+	color:black
+        outline:none;
+	font-family:Didot;
+	text-decoration: none;
+}
+.header a:hover{
+        color:#b49de9;
+}
+.header a:visited {
+
+color:#b49de9;
+
+}
 .header a#logo img{
 	border:0;
 }
@@ -47,21 +65,21 @@ body{
 	margin:0 0 0 63px;
 }
 .header ul li.selected a,.header ul li a:hover{
-	color:#f78117;
+	color:black;
 }
 .header ul li a{
 	font-size:16px;
 	text-decoration:none;
-	color:#5e5e5e;
-	font-family: 'Monospace';
+	color:black;
+	font-family:Didot;
 	outline:none;
 }
 
 /*------------------------- Body ------------------------*/ 
 .body{
 	width:940px;
-	margin:0 auto;
-	padding:0 10px;
+	margin:0 470px 0 470px;
+	#padding:50 10px;
 	overflow:hidden;
 }
 .body div#featured{
@@ -69,25 +87,25 @@ body{
 	padding:0 0 17px;
 }
 .body div#featured h3{
-	color:#f78117;
-	background-color: coral;
+	color:black;
 	font-size:36px;
-	left: 100px;
-	font-family: 'RokkittRegular';
-	margin:0 0 30px;
+	font-family: Didot;
+	margin:20 0 30px 500px;
 	width:600px;
-	padding:100px 0 0;
+	#left:500px;
+	#margin-right:100px;
+	#padding:100px 0 0;
 	font-weight:normal;
 }
 .body div#featured p{
-	width:490px;
+	width:600px;
 	color:#5d5d5d;
 	font-family: 'RokkittRegular';
 	font-size:16px;
 	line-height:25px;
 	text-shadow: 0 1px 0 #fcfcfc;
 	text-align:justify;
-	margin:0;
+	margin:50px 0px 5px 5px;
 }
 .body div#featured input{
 	background:url(../images/interface.jpg) no-repeat;
@@ -103,9 +121,8 @@ body{
 }
 .body ul.blog{
 	list-style:none;
-	margin:40px 0 0;
+	margin:40px 0 0 -90px;
 	padding:0 0 50px;
-	background:url(../images/separator.jpg) no-repeat center top;
 	overflow:hidden;
 }
 .body ul.blog li:first-child{
@@ -298,6 +315,7 @@ body{
 	padding:65px 10px 207px;
 	margin:0 auto;
 	overflow:hidden;
+	 background:url(../images/separator.jpg) no-repeat center top;
 }
 .footer ul{
 	list-style:none;
